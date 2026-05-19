@@ -11,8 +11,8 @@ Traditional ML requires sending all data to a central server for training. **Fed
 This project simulates 10 IoT edge devices using EC2 instances running AWS IoT Greengrass Core, trains a neural network on MNIST digit classification across 5 federated rounds, and aggregates local model updates in the cloud using AWS Lambda.
 
 **Final Results:**
-- ✅ 96.79% classification accuracy after 5 rounds
-- ⚡ Full training completed in 50.7 seconds across 10 workers
+- ✅ 97.39% classification accuracy after 5 rounds
+- ⚡ Full training completed in 46.7 seconds across 10 workers
 - 📦 All global/local models and per-round metrics stored in S3
 
 ---
